@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Sonorous;
+    src: url(../../Sonorous.ttf);
+}
+
+.icon {}
+
+* {
+    font-family: Sonorous;
+    margin: 0;
+}
+
+.App_Header {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.Title {
+    text-transform: uppercase;
+    left: 0;
+    margin: 2px 4px;
+    text-transform: uppercase !important;
+}
+
+.Search {
+    align-self: center;
+    padding: 1px 3px;
+    min-width: 10   0px;
+    max-width: 200px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 4px;
+}
+
+.App_Input {
+    margin-left: 10px;
+}
+
+form {
+    display: flex !important;
+    flex-direction: row
+}

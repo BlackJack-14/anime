@@ -1,0 +1,118 @@
+* {
+    text-decoration: none;
+}
+
+.link {
+    margin: 0!important;
+    padding: 0 !important;
+    height: fit-content !important;
+}
+
+.linkm {
+    margin: 0!important;
+    padding: 0 !important;
+    height: fit-content !important;
+}
+
+.epp {
+    position: relative;
+    padding: 2% 0 0 0;
+}
+
+.imagem {
+    width: 160px !important;
+    padding: 5px;
+}
+
+.mainm {
+    /* background-color: #00ffffd2 !important; */
+    /* background-color: #00ff00 !important; */
+    /* background-color: #ff7c30 !important; */
+    background-color: #FCADC9 !important;
+    color: #fff !important;
+    width: 180px;
+    height: 370px !important;
+    font-family: roboto !important;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    word-break: keep-all;
+    align-items: center;
+    text-align: center;
+}
+
+.main h5 {
+    font-family: roboto !important;
+}
+
+.main {
+    font-family: roboto !important;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #f50057!important;
+    margin: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    min-width: 180px !important;
+    word-break: keep-all;
+    max-width: 250px !important;
+    align-items: center;
+    text-align: center;
+    min-height: 345px;
+}
+
+img {
+    width: 170px !important;
+    margin-bottom: 5px;
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .mainm {
+        color: #fff !important;
+        width: 170px;
+        height: 370px !important;
+        font-family: roboto !important;
+        font-size: 12px;
+        text-decoration: none;
+        margin: 5px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        word-break: keep-all;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1025px) {
+    .imagem {
+        width: 210px !important;
+    }
+    .mainm {
+        width: 235px;
+        height: 450px !important;
+        font-family: roboto !important;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 12px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        word-break: keep-all;
+        align-items: center;
+        text-align: center;
+    }
+}

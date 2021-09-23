@@ -1,22 +1,19 @@
-@font-face {
-    font-family: Sonorous;
-    src: url(Sonorous.ttf);
-}
-
-.Link {
-    text-decoration: none !important;
-}
-
-* {
+.Top_main {
+    background-color: rgba(150, 150, 150, 0.575);
+    padding: 5px 2px 3px 3px;
     font-family: roboto !important;
 }
 
-.search {
-    font-family: Sonorous !important;
+.Heading {
+    margin: 18px 10px 5px;
+    text-transform: uppercase !important;
 }
 
-.App {
-    background-color: rgba(231, 231, 231, 0.445) !important;
+.Content {
+    display: flex;
+    flex-direction: row !important;
+    overflow-y: hidden;
+    margin: 5px !important;
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +25,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #858585;
+    background-color: #8d8d8d;
     border-radius: 20px;
     border: 3.5px solid transparent;
     background-clip: content-box;

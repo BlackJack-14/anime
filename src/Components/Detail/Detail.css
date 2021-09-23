@@ -1,0 +1,283 @@
+.main_content {
+    background-color: #f50057!important;
+    padding: 10px 0px;
+    width: 96%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 2%;
+    font-family: roboto !important;
+    text-align: center !important;
+}
+
+.sti {
+    width: 88.5%;
+    align-items: center !important;
+    margin-left: 2% !important;
+    margin-right: 1% !important;
+    position: fixed !important;
+}
+
+.main {
+    font-family: roboto !important;
+}
+
+.genre_main {
+    display: flex;
+    font-family: roboto !important;
+    margin: 20px auto;
+    padding: 10px;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: 90%;
+    text-align: center !important;
+}
+
+.lol {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #ffffffad !important;
+    border: 1px solid #00000050;
+    color: white;
+}
+
+.genre {
+    font-size: 20px !important;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 27px;
+    border: 1px solid transparent !important;
+    background-color: #000fff;
+}
+
+.progress {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.star {
+    padding: 5px 25px;
+    color: gold !important
+}
+
+.youtube {
+    margin: 5px;
+    width: 370px;
+    height: 210px
+}
+
+.title_1 {
+    text-align: center !important;
+    min-width: 190px;
+    max-width: 300px;
+    word-break: keep-all !important;
+}
+
+.widiget {
+    margin: 10px;
+}
+
+.mai>img {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.summary {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.summary>span {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.detail {
+    color: white !important;
+    background-color: #ffffffad !important;
+    font-size: 1em;
+    display: flex !important;
+    margin: 5px;
+    border: 1px solid #00000025;
+    padding: 0px;
+    flex-wrap: wrap !important;
+    justify-content: center;
+}
+
+.detail_main {
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #000fff!important;
+}
+
+detail>h6 {
+    margin: 5px;
+}
+
+detail>h6>h6 {
+    padding: 5px;
+}
+
+.XX {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 2px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center!important;
+    width: 100%;
+}
+
+@media (min-width:1024px) {
+    .XX {
+        display: grid;
+        grid-template-columns: max-content max-content max-content max-content;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center!important;
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .XX {
+        display: grid;
+        grid-template-columns: max-content max-content max-content max-content;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center!important;
+        width: 100%
+    }
+}
+
+@media (min-width: 1225px) {
+    .XX {
+        display: grid;
+        grid-template-columns: max-content max-content max-content max-content;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center!important;
+        width: 100%
+    }
+}
+
+.widgetInner {
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-y: hidden !important;
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .sti {
+        width: 94%;
+        align-items: center !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        position: fixed !important;
+    }
+    .relate {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .widgetInner {
+        max-width: 650px !important;
+        display: grid;
+        grid-template-columns: min-content min-content;
+        overflow-y: hidden !important;
+    }
+    .genre {
+        width: 45%;
+        color: white;
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        border-radius: 25px;
+        border: 1px solid transparent !important;
+        background-color: #000fff;
+    }
+    .detail {
+        color: white !important;
+        margin: 10px 8px;
+        font-size: 20px;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+    .detail_main {
+        margin: 5px 10px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: #000fff!important;
+    }
+    .youtube {
+        width: 98%;
+        min-height: 450px;
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .sti {
+        width: 94%;
+        align-items: center !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+        position: fixed !important;
+    }
+    .relate {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .widgetInner {
+        max-width: 650px !important;
+        display: grid;
+        grid-template-columns: min-content min-content;
+        overflow-y: hidden !important;
+    }
+    .genre {
+        width: 28%;
+        color: white;
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        border-radius: 27px;
+        border: 1px solid transparent !important;
+        background-color: #000fff;
+    }
+    .detail {
+        color: white !important;
+        margin: 10px 8px;
+        font-size: 22px;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+    .detail_main {
+        margin: 5px 10px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background-color: #000fff!important;
+    }
+    .youtube {
+        width: 1024px;
+        height: 576px
+    }
+}

@@ -1,0 +1,22 @@
+.paper {
+    width: 220px;
+    background-color: rgba(255, 255, 255, 0.692) !important;
+    margin: 2px 5px;
+    min-height: 470px;
+    max-height: 500px;
+}
+
+.Link {
+    text-decoration: none !important;
+    color: black;
+}
+
+.Image {
+    width: 180px !important;
+    margin: 5px auto;
+}
+
+h4, h5 {
+    font-size: 14px !important;
+    margin: 5px;
+}

@@ -1,0 +1,118 @@
+.content {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    column-gap: 2px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center!important;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 20px;
+    width: fit-content !important;
+    padding: 4px;
+    border-radius: 7.54px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: roboto !important;
+}
+
+.main_conten {
+    background-color: #FCADC9 !important;
+    margin: 5px auto;
+    width: 90%;
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.kok {
+    margin: 2px;
+    padding: 2px;
+    text-transform: uppercase;
+    min-width: 90px;
+    font-size: 10px !important;
+}
+
+.kk {
+    padding: 5px;
+}
+
+@media (min-width:1024px) {
+    .kok {
+        margin: 2px;
+        padding: 4px;
+        text-transform: uppercase;
+        min-width: 160px;
+        font-size: 20px !important;
+    }
+    .main_conten {
+        background-color: #FCADC9 !important;
+        margin: 5px auto;
+        width: 60%;
+        padding: 10px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: min-content min-content min-content min-content;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center!important;
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .content {
+        display: grid;
+        grid-template-columns: min-content min-content min-content min-content min-content;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center!important;
+        width: 100%
+    }
+    .kok {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 1225px) {
+    .kok {
+        font-size: 22px !important;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: min-content min-content min-content min-content min-content;
+        column-gap: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center!important;
+        width: 100%
+    }
+    .main_conten {
+        background-color: #FCADC9 !important;
+        margin: 5px auto;
+        width: 60%;
+        padding: 10px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+}
